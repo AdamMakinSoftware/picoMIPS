@@ -1,0 +1,12 @@
+400000		//NOP
+400000      //NOP
+6C403F		//24'b0110_1100_0100_0000_0011_1111      BEQ $2 %0  Repeat until sw8 goes to 1
+08C100      //24'b0000_1000_1100_0001_0000_0000      add 6 1   add sw7-sw0 to register 6
+8C403F		//24'b1000_1100_0100_0000_0011_1111      BNE $2 %0 Repeat until sw8 goes to 0
+6C403F		//24'b0110_1100_0100_0000_0011_1111      BEQ $2 %0 Repeat until sw8 goes to 1
+08A100      //24'b0000_1000_1010_0001_0000_0000      add 5 1   add sw7-sw0 to register 5
+1CC500		//24'b0001_1100_1100_0101_0000_0000      MULL %6 %5
+090600		//24'b0000_1001_0000_0110_0000_0000      add %8 %6   add register 6 to register 8
+090000		//24'b0000_1001_0000_0000_0000_0000      add %8 %0
+8C403E		//24'b1000_1100_0100_0000_0011_1110      BNE $2 %0 Repeat until sw8 goes to 0
+6C0036		//24'b0110_1100_0000_0000_0011_0110      BEQ $0 %0 jump back to the start 

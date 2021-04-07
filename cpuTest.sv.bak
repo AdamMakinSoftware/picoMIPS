@@ -1,0 +1,23 @@
+module cpuTest;
+parameter n = 8, Isize = 24;
+
+logic clk;
+logic [n-1:0] LED;
+logic [9:0] SW;
+
+
+picoMIPS4test c(.fastclk(clk),.SW(SW),.LED(LED));
+
+initial
+begin
+  clk =  0;
+  #500ns  forever #500ns clk = ~clk;
+end
+// TODO: Change r instructions to be able to take three different register addresses.
+initial 
+begin
+      SW = 10'b0100000000
+     #10 SW[9] = 10'b0000000000;
+end
+
+endmodule

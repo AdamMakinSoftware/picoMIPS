@@ -1,0 +1,343 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pc
+T_opt
+!s110 1617287077
+Vi>`;LTN]7><ii2Q^1Cf9A1
+04 12 4 work picoMIPStest fast 0
+=1-38d54724d647-6065d7a4-90-ccc
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.1;71
+R0
+T_opt1
+!s110 1617713573
+V122MClSGjmdCFz64V]Ta;3
+04 17 4 work picoMIPStestbench fast 0
+=1-14b31f1d346f-606c59a1-2da-38e8
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1617285389
+ViP9WlCRG6j?H=_C;ZPRCh0
+04 3 4 work cpu fast 0
+=1-38d54724d647-6065d10c-191-2664
+R1
+R2
+n@_opt2
+R3
+R0
+valu
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1617713554
+!i10b 1
+!s100 QA?QzL[T;BQ;XClOF@7P02
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IM1J3jC<_;PNUJ6l<OD9422
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z7 d//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins
+w1616595194
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv
+!i122 1145
+L0 10 48
+Z8 OL;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1617713553.000000
+!s107 alucodes.sv|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vcounter
+R4
+Z10 !s110 1617713560
+!i10b 1
+!s100 ?_0Efm<b`=O<MG?b_`i_M1
+R5
+IA^?F>eOU=?2Jn4[^@?JiV0
+R6
+S1
+R7
+w1616596955
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv
+!i122 1152
+L0 2 11
+R8
+r1
+!s85 0
+31
+!s108 1617713559.000000
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv|
+!i113 0
+R9
+R2
+vcpu
+R4
+!s110 1617713555
+!i10b 1
+!s100 aBG?b0P4lYiI:Ej`>PdTB0
+R5
+IBOA;84Jj`QSeE;m5H[<Ec0
+R6
+S1
+R7
+w1617639394
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv
+!i122 1146
+L0 12 49
+R8
+r1
+!s85 0
+31
+!s108 1617713555.000000
+!s107 alucodes.sv|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv|
+!i113 0
+R9
+R2
+vdecoder
+R4
+!s110 1617713556
+!i10b 1
+!s100 5ekfDcJb]mF@z6hiF1D9N3
+R5
+IlR322Sf4MAb?c`[i@?3iU3
+R6
+S1
+R7
+w1617197757
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv
+!i122 1147
+L0 12 61
+R8
+r1
+!s85 0
+31
+Z11 !s108 1617713556.000000
+!s107 alucodes.sv|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv|
+!i113 0
+R9
+R2
+vmem
+R4
+!s110 1617713557
+!i10b 1
+!s100 Z=`>5j0PYlmYKQ7OGab>Z3
+R5
+IbV>?5j?Z`n_c;Xle>UnGO2
+R6
+S1
+R7
+w1616509805
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv
+!i122 1148
+L0 7 19
+R8
+r1
+!s85 0
+31
+R11
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv|
+!i113 0
+R9
+R2
+vmultiplier
+R4
+Z12 !s110 1617713558
+!i10b 1
+!s100 EVDdJkOJmkElRMOz8GLj<3
+R5
+Io3e>GYLQN:DYncQFnKF:=1
+R6
+S1
+R7
+w1616527127
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv
+!i122 1149
+L0 1 10
+R8
+r1
+!s85 0
+31
+!s108 1617713557.000000
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv|
+!i113 0
+R9
+R2
+vpc
+R4
+R12
+!i10b 1
+!s100 =CgO[J1V@ZDW0c_PE3?>H3
+R5
+IMcmlT?H:9C0:I0714FY4C1
+R6
+S1
+R7
+w1617282439
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv
+!i122 1150
+L0 7 22
+R8
+r1
+!s85 0
+31
+Z13 !s108 1617713558.000000
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv|
+!i113 0
+R9
+R2
+vpicoMIPS4test
+R4
+!s110 1616687761
+!i10b 1
+!s100 8=CN9cJ94nBW3K=gB6BAH1
+R5
+IakiQcZV;@4z:HJgMAL6VC3
+R6
+S1
+R7
+w1616598816
+Z14 8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv
+Z15 F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv
+!i122 363
+Z16 L0 2 15
+R8
+r1
+!s85 0
+31
+!s108 1616687760.000000
+Z17 !s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv|
+!i113 0
+R9
+R2
+npico@m@i@p@s4test
+vpicoMIPStest
+R4
+R10
+!i10b 1
+!s100 T`cCN>IU6FkGFAE0fJmP90
+R5
+I7h5DzgQK?N>^mX028V5EB1
+R6
+S1
+R7
+w1617373398
+R14
+R15
+!i122 1153
+R16
+R8
+r1
+!s85 0
+31
+!s108 1617713560.000000
+R17
+R18
+!i113 0
+R9
+R2
+npico@m@i@p@stest
+vpicoMIPStestbench
+R4
+!s110 1617713561
+!i10b 1
+!s100 jJG>nYm`jc=A0Bi<`c;OS0
+R5
+I[c0`NXflV^7g9Sm;LPl8d0
+R6
+S1
+R7
+w1617713469
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv
+!i122 1154
+L0 1 25
+R8
+r1
+!s85 0
+31
+!s108 1617713561.000000
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv|
+!i113 0
+R9
+R2
+npico@m@i@p@stestbench
+vregisters
+R4
+!s110 1617713559
+!i10b 1
+!s100 @Ff[Lo@NB0Wge1A4f8?`71
+R5
+I@TO][Ke69U_?Oo3WE;bWZ1
+R6
+S1
+R7
+w1617640645
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv
+!i122 1151
+L0 8 36
+R8
+r1
+!s85 0
+31
+R13
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv|
+!i113 0
+R9
+R2
+vsigned_mult
+R4
+!s110 1616421985
+!i10b 1
+!s100 E_g@UT;YA_O_^XFPLYHMP3
+R5
+I?[[fCi=4Ga259524m50zK3
+R6
+S1
+d//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final
+w1616421732
+8//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv
+F//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv
+!i122 76
+L0 1 11
+R8
+r1
+!s85 0
+31
+!s108 1616421985.000000
+!s107 //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv|
+!i113 0
+R9
+R2

@@ -1,0 +1,61 @@
+# Compile of alu.sv was successful.
+# Compile of alucodes.sv was successful.
+# Compile of cpu.sv was successful.
+# Compile of decoder.sv was successful.
+# Compile of mem.sv was successful.
+# Compile of multiplier.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of registers.sv was successful.
+# Compile of counter.sv was successful.
+# Compile of picoMIPStest.sv was successful.
+# Compile of picoMIPStestbench.sv was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.picoMIPStestbench
+# vsim -voptargs="+acc" work.picoMIPStestbench 
+# Start time: 13:52:48 on Apr 06,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.picoMIPStestbench(fast)
+# Loading work.picoMIPStest(fast)
+# Loading work.cpu(fast)
+# Loading work.alu(fast)
+# Loading work.multiplier(fast)
+# Loading work.registers(fast)
+# Loading work.decoder(fast)
+# Loading work.mem(fast)
+# Loading work.pc(fast)
+add wave -position insertpoint  \
+sim:/picoMIPStestbench/p/myDesign/clk
+add wave -position insertpoint  \
+sim:/picoMIPStestbench/p/myDesign/LED
+add wave -position insertpoint  \
+sim:/picoMIPStestbench/p/myDesign/p/PCout
+add wave -position insertpoint  \
+sim:/picoMIPStestbench/p/myDesign/m/I
+run
+# ** Error: unimplemented opcode xx
+#    Time: 0 ns  Scope: picoMIPStestbench.p.myDesign.d File: //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv Line: 58
+run
+add wave -position insertpoint  \
+sim:/picoMIPStestbench/p/myDesign/SW
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.picoMIPStestbench(fast)
+# Loading work.picoMIPStest(fast)
+# Loading work.cpu(fast)
+# Loading work.alu(fast)
+# Loading work.multiplier(fast)
+# Loading work.registers(fast)
+# Loading work.decoder(fast)
+# Loading work.mem(fast)
+# Loading work.pc(fast)
+run
+# ** Error: unimplemented opcode xx
+#    Time: 0 ns  Scope: picoMIPStestbench.p.myDesign.d File: //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv Line: 58
+run
+run
+quit -sim
+# End time: 14:12:30 on Apr 06,2021, Elapsed time: 0:19:42
+# Errors: 1, Warnings: 1
+quit

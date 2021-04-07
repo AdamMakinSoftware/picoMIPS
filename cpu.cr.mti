@@ -1,0 +1,130 @@
+//filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/alu.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/alu.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alu.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/pc.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/pc.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/pc.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStest.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module picoMIPStest
+
+Top level modules:
+	picoMIPStest
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/registers.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/cpu.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/cpu.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/cpu.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/registers.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/registers.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alucodes.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/alucodes.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/picoMIPStestbench.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module picoMIPStestbench
+
+Top level modules:
+	picoMIPStestbench
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/decoder.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/decoder.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/decoder.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/multiplier.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/mem.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/mem.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/mem.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/multiplier.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/pins/counter.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/cpuTest.sv {1 {vlog -work work -vopt -sv -stats=none //filestore.soton.ac.uk/users/am8g17/mydocuments/EP/PicoMips/final/cpuTest.sv
+Model Technology ModelSim SE-64 vlog 2020.1 Compiler 2020.01 Jan 28 2020
+-- Compiling module cpuTest
+
+Top level modules:
+	cpuTest
+
+} {} {}}
